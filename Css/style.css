@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .primer{
+    background-color: #1CD1B0;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    font-size: calc( 0.9em + 1vw);
+  }
+  .segundo{
+    background-color: #00669F;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 100%;
+  }   
+  .segundo img{
+    height: 70px;
+    margin-right: 30px;
+  }
+  header nav{
+    width: 100%;
+    height: 60px;
+    background-color: #00669F;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header nav li{
+    padding-left: 6px;
+  }
+  section{
+    background-color:  #00669F;
+      height:730px ;
+      margin: 20px;
+      border-radius: 10px;
+      
+  }
+  main section h2{
+    text-align: center;
+    font-size: calc( 1.5em + 1vw);
+  }
+  main section h3{
+    text-align: center;
+    font-size: 15px;
+  }
+  main section form div.panel {
+    margin-top:40px ;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  main section form div.panel div.colums{
+    color: aliceblue;
+
+    font-size: calc( 1em + 1vw);
+  }
+  main section form div.panel div.colums .input-type{
+    display: flex;
+    flex-direction: column;
+    width: 12em;
+    margin-left: 10%;
+    margin-top: 8px;
+    
+  }
+  main section form div.panel div.input-type hr{
+    margin-top: 10px;
+  }
+  main section form div.panel div.colums div.estilo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  
+  main section form  button{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 90px;
+    
+    
+  }
+  footer{
+    margin-top:10px;
+    
+    width:100%;
+    height:80px;
+    background-color:#00669F;
+    font-family:'Karla', sans-serif;
+    padding: 30px;
+    bottom: 0;
+    
+    
+}
+footer h3{
+    text-align: center;
+    color: white;
+}
+
+  @media (min-width: 600px){
+    main section h2{
+      font-size: calc( 2em + 1vw);
+    }
+  }
+  @media (min-width: 800px){
+    
+    main section form div.panel{
+      flex-direction: row ;
+      height: 390px;
+    }
+    main section form div.panel div.colums{
+      margin-left: 30px;
+      height: 400px;
+    }
+    main section form div.panel div.colums .input-type{
+      padding-bottom: 20px;  
+      
+    }
+    main section form div.panel div.colums .input-type input{
+      height: 40px; 
+      
+    }
+    main section form div.button-around button{
+      margin-left: 400px;
+      margin-top: 0;
+    }
+    main section {
+      height: 550px;
+    }
+    main section form div.panel div.colums{
+      height: 400px;
+    }
+    
+    
+
+     
+    }
+    @media (min-width: 900px){
+      section{
+        width: 800px;
+        margin-left:auto ;
+        margin-right: auto ;
+      }
+      main section form div.panel div.colums{
+        font-size: 22px;
+      }
+      main section form div.panel{
+        flex-direction: row ;
+        height: 380px;
+      }
+      main section form div.panel div.colums .input-type{
+        width: 250px;
+        margin-left:auto ;
+        margin-right: auto ;
+      }
+      .primer{
+        font-size: 22px;
+      }
+     
+    }
+  
+
+  /*
+  section{
+      background-color:  #00669F;
+      height:830px ;
+      width: 950px;
+      justify-content: center;
+      border-radius: 10%;
+      margin:40px 280px;
+  }
+
+  main section form {
+    display: flex;
+    flex-direction: column;
+  }
+  */
